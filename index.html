@@ -4,19 +4,83 @@
         <meta charset="UTF-8"/>
         <title>My Page Title</title>
         <link rel="icon" type="image/x-icon" href="/Images/Favicon.ico"/>
+        <style>
+            body{
+                background-color: rgb(0, 255, 149);
+                background-image:url(Images/BOAT\ 2.jpg);
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            img{
+                width: 400px; 
+                Height: 400px;   
+                object-fit: cover;
+            }
+
+            h1, h4{
+                width: 600px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color: #29814b;
+                font-size: 50px;
+            }
+            
+            h4{
+                font-size: 20px;
+            }
+
+            p{
+                width: 400px;
+                color: #245f1e;
+                font-size: 14px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            
+            .water{
+                font-size: 27px;
+                line-height: 5px;
+                font-family: cursive;
+                color: rgb(154, 195, 255);
+
+            }
+
+            #gallery-container{
+                display: inline-block;
+                font-size: 0;
+            }
+
+            .image-container{
+                display: inline-block;
+                vertical-align: top;
+            }
+
+        </style>
     </head> 
     <body> 
-        <h1>hello</h1>
-        <p>Some text that I will have later</p>  
-        <div>
-            <div>
-                <img src="/Images/Forest.jpg" alt="A green forest"/>
+        <h1>Tress and stuff</h1>
+        <h4>Loook at the treeeeeeees and also waterrrr maybe</h4>  
+        <div id="gallery-container">
+            <div class="image-container">
+                <img src="Images/Forest.jpg" alt="A green forest"/>
+                <p>A green forest</p>
+                <p class="water"> WATER????</p>
+                <p Class="water">NO</p>
             </div>
-            <div>
-                <img src="/Images/Snow_forest.jpg" alt="A snowy forest"/>
+
+            <div class="image-container">
+                <img src="Images/Snow_forest.jpg" alt="A snowy forest"/>
+                <p>A snowy forest</p>
+                <p class="water"> WATER????</p>
+                <p class="water">COLD</p>
             </div>
-            <div>
-                <img src="/Images/Waterfall.jpg" alt="A waterfall"/>
+
+            <div class="image-container">
+                <img src="Images/Waterfall.jpg" alt="A waterfall"/>
+                <p>A waterfall</p>
+                <p class="water"> WATER????</p>
+                <p class="water">YES</p>
             </div>
         </div>
     </body>
